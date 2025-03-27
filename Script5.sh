@@ -2,7 +2,7 @@
 
 mkdir Directorio
 ls
-cd Directorio
+cd Directorio || exit
 
 for i in {1..5}; do
     mkdir "Directorio_$i"
